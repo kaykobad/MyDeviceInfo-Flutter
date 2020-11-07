@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class OptionSelectionPage extends StatelessWidget {
   final List<String> _buttonLabels = ["Battery Info", "Connection Info", "Device Info"];
   final List<IconData> _buttonIcons = [Icons.battery_charging_full, Icons.wifi, Icons.devices];
-  final List<Color> _buttonColors = [Colors.cyan, Colors.teal, Colors.deepOrangeAccent];
+  final List<Color> _buttonColors = [Colors.blueGrey, Colors.teal, Colors.deepOrangeAccent];
 
   @override
   Widget build(BuildContext context) {
