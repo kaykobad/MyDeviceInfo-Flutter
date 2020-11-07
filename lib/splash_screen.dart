@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:my_device_info/constants.dart';
 import 'dart:async';
 
 import 'package:my_device_info/selection_screen.dart';
@@ -31,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "My Device Info",
+                      ProjectConstants.projectName,
                       style: TextStyle(
                         fontSize: 32,
                         color: Colors.white,
@@ -48,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Expanded(
                 flex: 1,
                 child: Text(
-                  "By Md. Kaykobad Reza",
+                  ProjectConstants.courtesy,
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.white,

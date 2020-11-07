@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:my_device_info/constants.dart';
 
 class OptionSelectionPage extends StatelessWidget {
-  final List<String> _buttonLabels = ["Battery Info", "Connection Info", "Device Info"];
-  final List<IconData> _buttonIcons = [Icons.battery_charging_full, Icons.wifi, Icons.devices];
-  final List<Color> _buttonColors = [Colors.blueGrey, Colors.teal, Colors.deepOrangeAccent];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,15 +26,15 @@ class OptionSelectionPage extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 60.0),
       child: RaisedButton.icon(
-        color: _buttonColors[index],
+        color: ProjectConstants.buttonColors[index],
         padding: EdgeInsets.all(12.0),
         icon: Icon(
-          _buttonIcons[index],
+          ProjectConstants.buttonIcons[index],
           color: Colors.white,
           size: 20,
         ),
         label: Text(
-          _buttonLabels[index],
+          ProjectConstants.buttonLabels[index],
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,
@@ -45,7 +42,7 @@ class OptionSelectionPage extends StatelessWidget {
         ),
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(22.0),
-            side: BorderSide(color: _buttonColors[index])
+            side: BorderSide(color: ProjectConstants.buttonColors[index])
         ),
         onPressed: (){},
       ),
