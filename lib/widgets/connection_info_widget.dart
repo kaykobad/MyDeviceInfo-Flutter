@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_device_info/constants.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
 
 class ConnectionInfo extends StatefulWidget {
   @override

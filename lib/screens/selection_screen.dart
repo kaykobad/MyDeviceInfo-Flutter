@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_device_info/constants.dart';
-import 'package:my_device_info/info_screen.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/screens/info_screen.dart';
 
 class OptionSelectionPage extends StatelessWidget {
   @override

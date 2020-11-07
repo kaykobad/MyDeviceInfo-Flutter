@@ -1,7 +1,7 @@
 import 'package:battery_info/battery_info_plugin.dart';
 import 'package:battery_info/model/android_battery_info.dart';
 import 'package:flutter/material.dart';
-import 'package:my_device_info/constants.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
 
 class BatteryInfo extends StatelessWidget {
   @override
@@ -32,8 +32,8 @@ class BatteryInfo extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 8, left: 20, right: 20),
                 child: Table(
                   columnWidths: {
-                    0: FlexColumnWidth(5),
-                    1: FlexColumnWidth(8),
+                    0: FlexColumnWidth(1),
+                    1: FlexColumnWidth(1),
                   },
                   children: [
                     TableRow(

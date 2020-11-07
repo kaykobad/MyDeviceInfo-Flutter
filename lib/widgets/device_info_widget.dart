@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:device_info/device_info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_device_info/constants.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
 import 'package:system_info/system_info.dart';
 
 class DeviceInfo extends StatefulWidget {

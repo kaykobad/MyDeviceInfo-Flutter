@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_device_info/battery_info_widget.dart';
-import 'package:my_device_info/connection_info_widget.dart';
-import 'package:my_device_info/constants.dart';
-import 'package:my_device_info/device_info_widget.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/widgets/battery_info_widget.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/widgets/connection_info_widget.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
+import 'package:my_device_info/widgets/device_info_widget.dart';
 
 class InfoScreen extends StatelessWidget {
   final int index;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:my_device_info/constants.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/constants/constants.dart';
 import 'dart:async';
 
-import 'package:my_device_info/selection_screen.dart';
+import 'file:///F:/Projects/Flutter/my_device_info/lib/screens/selection_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
