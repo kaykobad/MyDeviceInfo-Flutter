@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_device_info/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Text("Hello World"),
+      home: SplashScreen(),
     );
   }
 }
