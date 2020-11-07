@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: TextTheme(bodyText2: TextStyle(color: Colors.white, fontSize: 16)),
       ),
       home: SplashScreen(),
     );

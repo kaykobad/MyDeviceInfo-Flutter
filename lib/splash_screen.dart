@@ -33,10 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   children: [
                     Text(
                       ProjectConstants.projectName,
-                      style: TextStyle(
-                        fontSize: 32,
-                        color: Colors.white,
-                      ),
+                      style: ProjectConstants.white32
                     ),
                     SizedBox(height: 20,),
                     SpinKitPouringHourglass(

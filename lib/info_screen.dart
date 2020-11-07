@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_device_info/battery_info_widget.dart';
 import 'package:my_device_info/constants.dart';
 
 class InfoScreen extends StatelessWidget {
@@ -19,6 +20,6 @@ class InfoScreen extends StatelessWidget {
   }
 
   Widget _getInfo(int index) {
-    return Container();
+    return BatteryInfo();
   }
 }
