@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_device_info/battery_info_widget.dart';
 import 'package:my_device_info/connection_info_widget.dart';
 import 'package:my_device_info/constants.dart';
+import 'package:my_device_info/device_info_widget.dart';
 
 class InfoScreen extends StatelessWidget {
   final int index;
@@ -23,5 +24,6 @@ class InfoScreen extends StatelessWidget {
   Widget _getInfo(int index) {
     if (index == 0) return BatteryInfo();
     else if (index == 1) return ConnectionInfo();
+    return DeviceInfo();
   }
 }
