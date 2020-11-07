@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_device_info/constants.dart';
+import 'package:my_device_info/info_screen.dart';
 
 class OptionSelectionPage extends StatelessWidget {
   @override
@@ -11,9 +12,9 @@ class OptionSelectionPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _getButton(0),
-              _getButton(1),
-              _getButton(2),
+              _getButton(0, context),
+              _getButton(1, context),
+              _getButton(2, context),
             ],
           ),
         ),
@@ -21,7 +22,7 @@ class OptionSelectionPage extends StatelessWidget {
     );
   }
 
-  Widget _getButton(index) {
+  Widget _getButton(index, context) {
     return Container(
       width: double.infinity,
       padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 60.0),
@@ -44,7 +45,7 @@ class OptionSelectionPage extends StatelessWidget {
             borderRadius: BorderRadius.circular(22.0),
             side: BorderSide(color: ProjectConstants.buttonColors[index])
         ),
-        onPressed: (){},
+        onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => InfoScreen(index: index))),
       ),
     );
   }
