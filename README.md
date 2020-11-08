@@ -1,6 +1,9 @@
 # My Device Info
 This is a simple Flutter project which shows different information related to battery, connection status and system architecture.
-The whole project is demonstrated in this ![video.](https://github.com/kaykobad/my_device_info/blob/master/gif/project-demo.gif)
+The whole project is demonstrated in the **Project Demo** section.
+
+## Project Demo
+![Project Demo](https://github.com/kaykobad/my_device_info/blob/master/gif/project-demo.gif)
 
 ## Main Features
 - Battery Info:
