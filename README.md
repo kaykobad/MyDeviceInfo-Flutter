@@ -1,16 +1,27 @@
-# my_device_info
+# My Device Info
+This is a simple Flutter project which shows different information related to battery, connection status and system architecture.
+The whole project is demonstrated in this ![video.](https://github.com/kaykobad/my_device_info/blob/master/gif/project-demo.gif)
 
-A flutter application that will show info about my device
+## Main Features
+- Battery Info:
+    - Battery health
+    - Battery level
+    - Charging status
+    - Battery technology
+    - Voltage
+    - Temperature etc.
+- Connection Status:
+    - Connected to WiFi/Mobile data/None
+    - Update status with connection status change
+- System Info:
+    - System architecture
+    - Base OS related information
+    - Kernel related information
+    - Memory related information
+    - Display related information
+    - Sensor related information
+    - And much more...
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Framework and Programming Language
+- Flutter 1.22.3 (Stable)
+- Dart 2.10.3
